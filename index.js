@@ -21,8 +21,9 @@ const corsOptions = {
   credentials: true,
   origin: (origin, callback) => {
     const allowedOrigins = [
-      "http://localhost:5173",
-      "https://book-your-place-azure.vercel.app",
+  "http://localhost:5173",
+  "https://book-your-place-azure.vercel.app",
+  "https://book-your-place-4aly5zstl-abhishekcs3459.vercel.app",
       // Add more allowed origins here if needed
     ];
 
